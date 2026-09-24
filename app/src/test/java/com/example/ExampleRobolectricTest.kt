@@ -20,10 +20,10 @@ import org.robolectric.annotation.Config
 class ExampleRobolectricTest {
 
     @Test
-    fun `appName string matches DocToImage`() {
+    fun `appName string matches DocView`() {
         val context = ApplicationProvider.getApplicationContext<Context>()
         val appName = context.getString(R.string.app_name)
-        assertEquals("DocToImage", appName)
+        assertEquals("DocView", appName)
     }
 
     @Test

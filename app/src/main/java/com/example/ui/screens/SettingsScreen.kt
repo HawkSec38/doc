@@ -194,7 +194,7 @@ fun SettingsScreen(
                     }
                     Spacer(modifier = Modifier.height(6.dp))
                     Text(
-                        text = "DocToImage runs a pure on-device layout and rasterization engine. It parses OOXML packages (PPTX, DOCX, XLSX) and formatted documents directly to Android Canvas Bitmaps with 0 PDF conversion steps.",
+                        text = "DocView runs a pure on-device layout and rasterization engine. It parses OOXML packages (PPTX, DOCX, XLSX) and formatted documents directly to Android Canvas Bitmaps with 0 PDF conversion steps.",
                         fontSize = 12.sp,
                         lineHeight = 16.sp,
                         color = MaterialTheme.colorScheme.onSurfaceVariant

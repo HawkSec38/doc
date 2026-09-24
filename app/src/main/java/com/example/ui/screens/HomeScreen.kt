@@ -122,7 +122,7 @@ fun HomeScreen(
                         )
                         Spacer(modifier = Modifier.width(10.dp))
                         Text(
-                            text = "DocToImage",
+                            text = "DocView",
                             fontWeight = FontWeight.Bold,
                             fontSize = 20.sp
                         )

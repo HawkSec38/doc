@@ -72,7 +72,7 @@ class ImageExporter(private val context: Context) {
             type = format.mimeType
             putExtra(Intent.EXTRA_STREAM, uri)
             putExtra(Intent.EXTRA_SUBJECT, "$docName - Page ${page.pageNumber}")
-            putExtra(Intent.EXTRA_TEXT, "Rendered directly from $docName using DocToImage (0 intermediate PDF steps).")
+            putExtra(Intent.EXTRA_TEXT, "Rendered directly from $docName using DocView (0 intermediate PDF steps).")
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
         }
     }

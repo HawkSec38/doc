@@ -22,6 +22,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "DocToImage"
+rootProject.name = "DocView"
 
 include(":app")
